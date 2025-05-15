@@ -1,23 +1,24 @@
 {
   "compilerOptions": {
+    "target": "ESNext",              // Better for modern syntax, use ESNext instead of ES6
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
-    "target": "ES6",
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
     "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
+    "module": "ESNext",              // Keep consistent with target, use uppercase ESNext
+    "moduleResolution": "node",     // Change from "bundler" to "node" for better module resolution
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
+    "jsx": "preserve",               // Let Next.js handle JSX compilation
     "incremental": true,
     "plugins": [
       {
         "name": "next"
       }
     ],
+    "baseUrl": ".",                 // Add baseUrl for path aliases
     "paths": {
       "@/*": ["./*"]
     }
