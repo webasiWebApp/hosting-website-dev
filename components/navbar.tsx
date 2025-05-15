@@ -15,11 +15,11 @@ const Navbar = () => {
 
   return (
     <header className="w-full border-b border-gray-800 bg-[#0a0d14]">
-      <div className="container mx-auto px-4 py-4">
+      <div className="container mx-auto px-16 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <Image src="/logo.png" alt="Tempest Logo" width={140} height={40} className="h-8 w-auto" />
+              <Image src="/logo.png" alt="Tempest Logo" width={140} height={40} className="h-12 w-auto" />
             </Link>
           </div>
 
@@ -31,12 +31,7 @@ const Navbar = () => {
             <Link href="/dedicated-servers" className="px-3 py-2 text-sm font-medium text-white hover:text-[#004FEF]">
               DEDICATED SERVERS
             </Link>
-            <Link
-              href="/budget-dedicated-servers"
-              className="px-3 py-2 text-sm font-medium text-white hover:text-[#004FEF]"
-            >
-              BUDGET DEDICATED SERVERS
-            </Link>
+           
             <Link
               href="/virtual-dedicated-servers"
               className="px-3 py-2 text-sm font-medium text-white hover:text-[#004FEF]"
@@ -71,9 +66,7 @@ const Navbar = () => {
                 </div>
               </div>
             </div>
-            <Link href="/looking-glass" className="px-3 py-2 text-sm font-medium text-white hover:text-[#004FEF]">
-              LOOKING GLASS
-            </Link>
+           
           </nav>
 
           <div className="hidden md:flex items-center space-x-2">
@@ -104,12 +97,7 @@ const Navbar = () => {
               <Link href="/dedicated-servers" className="px-3 py-2 text-sm font-medium text-white hover:text-[#004FEF]">
                 DEDICATED SERVERS
               </Link>
-              <Link
-                href="/budget-dedicated-servers"
-                className="px-3 py-2 text-sm font-medium text-white hover:text-[#004FEF]"
-              >
-                BUDGET DEDICATED SERVERS
-              </Link>
+             
               <Link
                 href="/virtual-dedicated-servers"
                 className="px-3 py-2 text-sm font-medium text-white hover:text-[#004FEF]"
@@ -128,9 +116,7 @@ const Navbar = () => {
               <Link href="/privacy" className="px-3 py-2 text-sm font-medium text-white hover:text-[#004FEF]">
                 PRIVACY
               </Link>
-              <Link href="/looking-glass" className="px-3 py-2 text-sm font-medium text-white hover:text-[#004FEF]">
-                LOOKING GLASS
-              </Link>
+              
               <div className="pt-2 flex flex-col space-y-2">
                 <Button
                   variant="outline"

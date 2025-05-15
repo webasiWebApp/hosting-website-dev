@@ -2,10 +2,11 @@ import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Shield, Server, Globe, Cpu, Cloud, Zap } from "lucide-react"
-
+import SwiperCarousel from "@/components/SwiperCarousel/SwiperCarousel"
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen px-16">
+      <SwiperCarousel />
       {/* Hero Section */}
       <section className="w-full py-16 md:py-24 lg:py-32 hero-gradient">
         <div className="container mx-auto px-4">

@@ -24,7 +24,7 @@ export default function RootLayout({
       <body className={`${inter.className} bg-[#0a0d14] text-white min-h-screen flex flex-col`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
           <Navbar />
-          <main className="flex-grow">{children}</main>
+            <main className="flex-grow">{children}</main>
           <Footer />
         </ThemeProvider>
       </body>
