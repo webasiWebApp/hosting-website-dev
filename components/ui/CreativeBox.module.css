@@ -1,0 +1,44 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(
+    90deg,
+    #171a29 0%,
+    #1c2032 100%
+  );
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s;
+
+  padding: 50px;
+}
+
+.container:hover {
+  transform: scale(1.05);
+  color: #7d93ffc5;
+}
+
+.circle {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: #024DE6;
+  border-radius: 50%;
+  pointer-events: none;
+  transition: transform 0.1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  font-family: "Arial", sans-serif;
+}

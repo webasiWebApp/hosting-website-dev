@@ -9,7 +9,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Tempest - Premium Hosting Solutions",
+  title: "xyz-Hosting",
   description: "High-performance game servers, VPS, and dedicated hosting solutions",
     generator: 'v0.dev'
 }

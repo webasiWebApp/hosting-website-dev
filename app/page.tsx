@@ -3,12 +3,13 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Shield, Server, Globe, Cpu, Cloud, Zap } from "lucide-react"
 import SwiperCarousel from "@/components/SwiperCarousel/SwiperCarousel"
+import CreativeBox from "@/components/ui/CreativeBox"
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       <SwiperCarousel />
       {/* Hero Section */}
-      <section className="w-full py-16 md:py-24 lg:py-32 hero-gradient">
+      {/* <section className="w-full py-16 md:py-24 lg:py-32 hero-gradient">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="space-y-6">
@@ -62,7 +63,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Server Types Section */}
       <section className="w-full py-16 bg-[#0c0f17]">
@@ -94,7 +95,7 @@ export default function Home() {
       </section>
 
       {/* Trusted By Section */}
-      <section className="w-full py-16">
+      {/* <section className="w-full py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-center text-xl font-medium mb-8">Trusted by</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center justify-items-center opacity-70">
@@ -154,13 +155,37 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Features Section */}
-      <section className="w-full py-16 bg-[#0c0f17]">
+      <section className="w-full py-16 bg-[#0c0f17] px-16">
         <div className="container mx-auto px-4">
+
+          
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <div className="p-6 rounded-lg feature-card">
+
+            <CreativeBox
+              icon="zap"
+              title="High performance"
+              description="With our in-house solutions being continually developed we are able to push latest-gen hardware to its max."
+             
+            />
+
+            <CreativeBox
+              icon="cloud"
+              title="Fully redundant"
+              description="Our peering and transit is cherry-picked to ensure reliability even when other providers can't keep up!"
+             
+            />
+
+            <CreativeBox
+              icon="shield"
+              title="Secure Infrastructure"
+              description="As a provider we value your business and your security, therefore our datacenter environments have been tightly secured to protect your business interests."
+              
+            />
+
+            {/* <div className="p-6 rounded-lg feature-card">
               <div className="bg-[#0f1218] p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
                 <Zap className="h-6 w-6 text-[#004FEF]" />
               </div>
@@ -197,7 +222,7 @@ export default function Home() {
               <Link href="#" className="text-[#004FEF] text-sm font-medium mt-4 inline-block hover:underline">
                 Keeping your data secure
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -206,7 +231,7 @@ export default function Home() {
       <section className="w-full py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-lg font-medium text-[#004FEF] mb-2">Why choose Tempest</h2>
+            <h2 className="text-lg font-medium text-[#004FEF] mb-2">Why choose xyz Hosting</h2>
             <h3 className="text-3xl font-bold">YOUR TOP CHOICE FOR PERFORMANCE-DRIVEN HOSTING</h3>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
