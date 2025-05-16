@@ -13,36 +13,36 @@ import styles from "./SwiperCarousel.module.css";
 
 const slidesData = [
   {
-    key: "slide1",
+    key: "Dedicated Servers",
     background:
-      "https://images.unsplash.com/photo-1739372425274-d41281e72c5d?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.0.3",
-    spanText: "slide1",
-    title: "합의는 연구소의, 참여하라",
-    description: "한 뜨겁기 및 오르고 악질이 모자로 움직인 시대만 맞는다.",
+      "/heroimg1.png",
+    spanText: "Dedicated Servers",
+    title: "Unmatched Server Power for Your Business",
+    description: "Leverage the raw power of our dedicated servers for your demanding applications, providing unparalleled performance and scalability.",
   },
   {
-    key: "slide2",
+    key: "Secure Data Hosting",
     background:
-      "https://images.unsplash.com/photo-1734671223970-16adb03bedb7?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3",
-    spanText: "slide2",
-    title: "온도는 집중으로 되라",
-    description: "정부미를 대통령제는 마련하게 칭호도 최고는 것 이 시행하다.",
+      "/heroimg2.png",
+    spanText: "Secure Data Hosting",
+    title: "High-Performance SSD Hosting",
+    description: "Accelerate your website with blazing-fast SSD storage, ensuring rapid data access and unbeatable performance for your online presence.",
   },
   {
-    key: "slide3",
+    key: "Network Coverage",
     background:
-      "https://images.unsplash.com/photo-1735746693937-023fa491a32e?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.0.3",
-    spanText: "slide3",
-    title: "진공이 적극적이 공부하다",
-    description: "연출을 기업을 노동계는 구입에 안심하다.",
+      "/heroimg3.png",
+    spanText: "Network Coverage",
+    title: "Seamless Global Hosting Network",
+    description: "Deploy your website across the globe with our expansive server network, guaranteeing low-latency access for your users, no matter their location.",
   },
   {
-    key: "slide4",
+    key: "SSD Hosting",
     background:
-      "https://images.unsplash.com/photo-1740619061019-38581c1c293a?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3",
-    spanText: "slide4",
-    title: "지난밤의 위하는 차지하다",
-    description: "권력으로 보낸다 오판으로 활용은 등 언론 역사가 나온다 그러나.",
+      "/heroimg4.png",
+    spanText: "SSD Hosting",
+    title: "Lightning-Fast SSD Hosting Solutions",
+    description: "Accelerate your website with blazing-fast SSD storage, ensuring rapid data access and unbeatable performance for your online presence.",
   },
 ];
 
@@ -85,14 +85,14 @@ export default function SwiperCarousel() {
   // Mouse enter/leave handlers
   const handleMouseEnter = () => {
     if (swiperContainerRef.current) {
-      swiperContainerRef.current.classList.add(styles.outline);
-      showNavButtons(true);
+      // swiperContainerRef.current.classList.add(styles.outline);
+      showNavButtons(false);
     }
   };
   
   const handleMouseLeave = () => {
     if (swiperContainerRef.current) {
-      swiperContainerRef.current.classList.remove(styles.outline);
+      // swiperContainerRef.current.classList.remove(styles.outline);
       showNavButtons(false);
       setIsTabPressed(false);
     }

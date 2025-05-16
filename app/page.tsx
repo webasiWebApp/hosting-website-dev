@@ -5,7 +5,7 @@ import { Shield, Server, Globe, Cpu, Cloud, Zap } from "lucide-react"
 import SwiperCarousel from "@/components/SwiperCarousel/SwiperCarousel"
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen px-16">
+    <div className="flex flex-col min-h-screen">
       <SwiperCarousel />
       {/* Hero Section */}
       <section className="w-full py-16 md:py-24 lg:py-32 hero-gradient">

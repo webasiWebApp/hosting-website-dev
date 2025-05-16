@@ -2,9 +2,13 @@
 
 .swiper {
   width: 100%;
-  height: 100vh;
+  height: 90vh !important;
   outline: none;
   position: relative;
+}
+
+.swiper-wrapper{
+  height: 100vh !important;
 }
 
 .outline {
@@ -23,14 +27,15 @@
   background-position: center;
   transition: all 0.1s;
   color: #fff;
+  height: 90vh !important;
 }
 
 .swiperSlide::before {
   content: "";
   position: absolute;
   width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.3);
+  height: 100vh;
+  background: radial-gradient(circle,rgba(2, 0, 36, 0.5) 0%, #0B0D14 52%);
   z-index: -1;
 }
 
@@ -45,6 +50,7 @@
 .swiperSlide h1 {
   font-size: 68px;
   line-height: 1.125;
+  font-weight: 600;
   margin: 0;
 }
 
