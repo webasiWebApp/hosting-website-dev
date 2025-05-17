@@ -3,20 +3,25 @@
 @tailwind utilities;
 
 :root {
-  --primary: #004fef;
-  --primary-hover: #0045d4;
+  --primary: #0D96D9;
+  --primary-hover: #0a7ab2;
   --background: #0a0d14;
   --foreground: #ffffff;
   --card: #0f1218;
   --card-foreground: #ffffff;
   --border: #1e2433;
   --input: #1e2433;
-  --ring: #004fef;
+  --ring: #0D96D9;
 }
 
 body {
   background-color: var(--background);
   color: var(--foreground);
+}
+
+.cta-sec{
+  background-image: url("../public/cta.png");
+  background-attachment: fixed;
 }
 
 @layer base {
@@ -29,7 +34,7 @@ body {
 }
 
 .gradient-text {
-  background: linear-gradient(90deg, #004fef 0%, #00a1ff 100%);
+  background: linear-gradient(90deg, #0D96D9 0%, #00a1ff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
