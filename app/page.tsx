@@ -300,7 +300,7 @@ export default function Home() {
       </section>
 
       {/* Global Network Section */}
-      <section className="w-full py-16 px-16">
+      <section className="w-full py-0 px-16">
         <div className="container mx-auto px-4">
           {/* <div className="text-center mb-12">
             <h2 className="text-lg font-medium text-[#0D96D9] mb-2">PTPP Anycast Network</h2>
@@ -349,7 +349,7 @@ export default function Home() {
 
       {/* CTA Section */}
       <section className="w-full py-16 px-16 cta-sec">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 ">
           <div className="bg-[#0f1218] p-12 rounded-lg text-center">
             <h2 className="text-3xl font-bold mb-6">Ready to experience unmatched performance?</h2>
             <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
