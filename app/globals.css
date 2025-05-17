@@ -56,6 +56,15 @@ p{
   background: radial-gradient(circle at 50% 50%, rgba(0, 79, 239, 0.15) 0%, rgba(0, 79, 239, 0) 70%);
 }
 
+
+.hero-img-gradient {
+ background:radial-gradient(circle,#02002480 0%, #0b0d14 52%),url('../public/vps1.png');
+background-size: contain;  /* Ensure the background image covers the element */
+background-position: center;  /* Center the image */
+background-repeat: no-repeat;
+
+}
+
 .card-gradient {
   background: linear-gradient(180deg, rgba(15, 18, 24, 0.8) 0%, rgba(10, 13, 20, 0.8) 100%);
   backdrop-filter: blur(10px);

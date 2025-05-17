@@ -158,7 +158,7 @@ export default function Home() {
       </section> */}
 
       {/* Features Section */}
-      <section className="w-full py-16 bg-[#0c0f17] px-16">
+      <section className="w-full pb-16 bg-[#0c0f17] px-16">
         <div className="container mx-auto px-4">
 
           
@@ -201,11 +201,7 @@ export default function Home() {
                <h2 className="text-lg font-medium text-[#0D96D9] mb-2">Why choose xyz Hosting</h2>
                 <h3 className="text-3xl font-bold">YOUR TOP CHOICE FOR PERFORMANCE-DRIVEN HOSTING</h3>
               <p className="text-gray-300 mb-6 mt-3">
-                Tempest stands at the forefront of dedicated server hosting, setting benchmarks in performance,
-                adaptability, and resilience. Our state-of-the-art infrastructure, bolstered by cutting-edge technology,
-                is meticulously designed to handle the most demanding workloads. When uptime and reliability are
-                non-negotiable, Tempest emerges as the go-to choice for mission-critical applications and high-traffic
-                websites.
+                Syz-Hosting provides top-tier game hosting solutions with a focus on performance, reliability, and low-latency gameplay. Our powerful servers are located in Frankfurt, Germany—one of Europe’s leading data hubs—ensuring fast and stable connections across the continent. Whether you're running a small community server or hosting large-scale multiplayer games, Syz-Hosting delivers the speed, security, and uptime you need. Backed by 24/7 expert support and cutting-edge infrastructure, we make sure your game is always online and running smoothly.
               </p>
               <Link href="#" className="inline-flex items-center text-[#0D96D9] font-medium hover:underline">
                 View More
