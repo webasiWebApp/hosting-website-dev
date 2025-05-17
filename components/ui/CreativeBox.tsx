@@ -53,7 +53,7 @@ const CreativeBox: React.FC<CreativeBoxProps> = ({ icon, title, description }) =
     <div className={styles.container} ref={containerRef}>
       <div className={styles.circle} ref={circleRef} >
         <div className={styles.icon}>
-            <IconComponent className="h-12 w-12 text-[#7d93ffc5]" />
+            <IconComponent className="h-12 w-12 text-[#024ee672]" />
         </div>
       </div>
 

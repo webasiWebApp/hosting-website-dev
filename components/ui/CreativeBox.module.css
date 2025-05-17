@@ -17,14 +17,14 @@
 
 .container:hover {
   transform: scale(1.05);
-  color: #7d93ffc5;
+  /* color: #7d93ffc5; */
 }
 
 .circle {
   position: absolute;
   width: 150px;
   height: 150px;
-  background: #024DE6;
+  background: #024ee63c;
   border-radius: 50%;
   pointer-events: none;
   transition: transform 0.1s;

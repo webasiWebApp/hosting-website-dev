@@ -185,58 +185,22 @@ export default function Home() {
               
             />
 
-            {/* <div className="p-6 rounded-lg feature-card">
-              <div className="bg-[#0f1218] p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
-                <Zap className="h-6 w-6 text-[#004FEF]" />
-              </div>
-              <h3 className="text-xl font-bold mb-3">High performance</h3>
-              <p className="text-gray-400">
-                With our in-house solutions being continually developed we are able to push latest-gen hardware to its
-                max.
-              </p>
-              <Link href="#" className="text-[#004FEF] text-sm font-medium mt-4 inline-block hover:underline">
-                Pushing Intel® to the max
-              </Link>
-            </div>
-            <div className="p-6 rounded-lg feature-card">
-              <div className="bg-[#0f1218] p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
-                <Cloud className="h-6 w-6 text-[#004FEF]" />
-              </div>
-              <h3 className="text-xl font-bold mb-3">Fully redundant</h3>
-              <p className="text-gray-400">
-                Our peering and transit is cherry-picked to ensure reliability even when other providers can't keep up!
-              </p>
-              <Link href="#" className="text-[#004FEF] text-sm font-medium mt-4 inline-block hover:underline">
-                Blocking a 1.6Tb/s attack
-              </Link>
-            </div>
-            <div className="p-6 rounded-lg feature-card">
-              <div className="bg-[#0f1218] p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
-                <Shield className="h-6 w-6 text-[#004FEF]" />
-              </div>
-              <h3 className="text-xl font-bold mb-3">Secure Infrastructure</h3>
-              <p className="text-gray-400">
-                As a provider we value your business and your security, therefore our datacenter environments have been
-                tightly secured to protect your business interests.
-              </p>
-              <Link href="#" className="text-[#004FEF] text-sm font-medium mt-4 inline-block hover:underline">
-                Keeping your data secure
-              </Link>
-            </div> */}
+            
           </div>
         </div>
       </section>
 
       {/* Why Choose Section */}
-      <section className="w-full py-16">
+      <section className="w-full py-16 px-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-lg font-medium text-[#004FEF] mb-2">Why choose xyz Hosting</h2>
-            <h3 className="text-3xl font-bold">YOUR TOP CHOICE FOR PERFORMANCE-DRIVEN HOSTING</h3>
+           
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-gray-300 mb-6">
+               <h2 className="text-lg font-medium text-[#004FEF] mb-2">Why choose xyz Hosting</h2>
+                <h3 className="text-3xl font-bold">YOUR TOP CHOICE FOR PERFORMANCE-DRIVEN HOSTING</h3>
+              <p className="text-gray-300 mb-6 mt-3">
                 Tempest stands at the forefront of dedicated server hosting, setting benchmarks in performance,
                 adaptability, and resilience. Our state-of-the-art infrastructure, bolstered by cutting-edge technology,
                 is meticulously designed to handle the most demanding workloads. When uptime and reliability are
@@ -258,7 +222,7 @@ export default function Home() {
             </div>
             <div>
               <Image
-                src="/server-illustration.png"
+                src="/landing1.jpg"
                 alt="Server Illustration"
                 width={500}
                 height={400}
@@ -270,12 +234,12 @@ export default function Home() {
       </section>
 
       {/* High Performance Computing Section */}
-      <section className="w-full py-16 bg-[#0c0f17]">
+      <section className="w-full py-16 px-16 bg-[#0c0f17]">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <Image
-                src="/server-rack-detail.png"
+                src="/landing2.jpg"
                 alt="Server Rack Detail"
                 width={600}
                 height={500}
